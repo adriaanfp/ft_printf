@@ -45,7 +45,7 @@ int	ft_printf(char const *format, ...)
 	va_start(args, format);
 	while (format[i])
 	{
-		if (*format == '%' && format[i + 1] != 0)
+		if (format[i] == '%' && format[i + 1] != 0)
 		{
 			i++;
 			size += ft_format(args, format[i]);
