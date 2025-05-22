@@ -14,7 +14,7 @@ El objetivo principal es entender el funcionamiento interno de esta función tan
 
 ## ✅ Especificadores soportados
 
-Tu versión de `printf` puede manejar los siguientes formatos:
+Esta versión de `printf` puede manejar los siguientes formatos:
 
 | Especificador | Descripción              |
 |---------------|--------------------------|
